@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Instructions\
+\
+1. Folder \'93ShearletsLibrary\'94 contains two sub folders, \'93Neural_Signal_identification\'94 and \'93OutputFiles\'94.\
+The first sub folder contains python code called \'93DenoisingCode.py\'94,  and also \'93FinalDenoisingCode.ipynb\'94 which is jupyter notebook version.\
+\
+2. To run the experiment, go to DenoisingCode.py directory in your terminal and type \
+			\
+			python3 DenoisingCode.py\
+\
+3. Enter directory of .brw file  to be analysed (you can drop the file directly in the same directory as the\
+\'93\'93DenoisingCode.py\'94 and then just type the name of the file.\
+\
+4. Enter threshold level for PCA measured in standard deviation (recommended value = 3)\
+5. Enter threshold values for shearlet transform, (recommended value = 1.2)\
+\
+6. The code will produce two .brw files in the \'93OutputFiles\'94 folder, the first file called \'93Denoised.brw \'94 is resultant .brw file after  running CWT + PCA algorithm, the second file is called \'93DenoisedAndSheared.brw\'94 and is the result of running CWT + PCA + Shearlet Transform on the original data.\
+\
+If there are any questions\
+Email me at : alexander.statsenko198@gmail.com\
+\
+}
